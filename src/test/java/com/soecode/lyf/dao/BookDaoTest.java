@@ -30,7 +30,7 @@ public class BookDaoTest extends BaseTest {
 
 	@Test
 	public void testReduceNumber() throws Exception {
-		long bookId = 1000;
+		long bookId = 1100;
 		int update = bookDao.reduceNumber(bookId);
 		System.out.println("update=" + update);
 	}
